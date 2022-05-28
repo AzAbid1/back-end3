@@ -15,7 +15,8 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\DiscriminatorColumn(name="type", type="string")
  * @ORM\DiscriminatorMap({
  *     "apprenant" = "Apprenant",
- *     "enseignant" = "Enseignant"
+ *     "enseignant" = "Enseignant",
+ *     "admin" = "Admin"
  * })
  */
 abstract class Utilisateur
